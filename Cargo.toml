@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "day_1",
+    "day_2",
+    # Add the paths to your individual challenge projects here
+]
