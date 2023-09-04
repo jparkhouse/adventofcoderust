@@ -85,8 +85,8 @@ fn main() -> io::Result<()> {
         let _part_2_output = manage_top_three(&mut part_2_output, vec_sum);
     }
 
-    println!("Day 1 output: {:?}", part_1_output);
+    println!("Part 1 output: {:?}", part_1_output);
     let sum_part_2: i32 = part_2_output.iter().sum();
-    println!("Day 2 output: {:?}", sum_part_2);
+    println!("Part 2 output: {:?}", sum_part_2);
     Ok(())
 }
